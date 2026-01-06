@@ -1,7 +1,9 @@
 # Bellabeat Case Study – Smart Device Usage Analysis
 
 ## Business Task
-The objective of this case study anslysis is to examine smart device usage related data from non-Bellabeat users in order to identify key trends in consumer wellness behaviour. These insights will then be applied to a Bellabeat product to inform, and support high-level marketing strategy recommendations for the Bellabeat executive team.
+
+Bellabeat is a wellness technology company that produces smart products for women, including the Bellabeat mobile app, Leaf and Time activity trackers, the Spring smart water bottle, and a digital membership program. 
+As a junior data analyst on the Bellabeat marketing analytics team, the task is to analyze public smart device usage data from Fitbit users (non-Bellabeat) to understand how people track their activity, sleep, and other wellness behaviours. The goal is to identify key trends in consumer behaviour and apply them to one Bellabeat product. These insights will then be used to inform data‑driven marketing recommendations for the Bellabeat executive team.
 
 ## Key Business Questions
 1. What are the key trends in smart device usage?
