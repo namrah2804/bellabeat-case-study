@@ -1,0 +1,1 @@
+Documentation for the Bellabeat case study.
