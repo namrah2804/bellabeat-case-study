@@ -16,8 +16,28 @@ As a junior data analyst on the Bellabeat marketing analytics team, the task is 
 - Bellabeat Marketing Analytics Team
 - Current and potential Bellabeat customers – women who use or may use Bellabeat smart wellness products.
 
+## Data
+
+Primary dataset:
+
+- **Fitbit Fitness Tracker Data** (public dataset on Kaggle): minute‑level and daily‑level activity, calories, and sleep data from 30 Fitbit users over a limited time period.  
+- Limitations: The dataset is used as a proxy for Bellabeat users’ behaviour. It is public, small, and may not fully represent or replicate Bellabeat’s actual customer base, so findings are treated as directional rather than definitive.
+
+
 ## Tools Used
 - SQL: Data cleaning, joins, and summary tables
 - Python: Data auditing, cleaning, feature engineering, and exports
 - R: Statistical analysis and exploratory visualisations
 - Tableau: Dashboard creation and insight storytelling
+
+## Analysis plan
+
+The project follows the standard data‑analysis workflow:
+
+1. **Ask** – Define the business task, stakeholders, and key questions.  
+2. **Prepare** – Locate and understand the Fitbit dataset, evaluate its limitations, and store it in a structured project folder.  
+3. **Process** – Clean the data, handle missing values, and join tables into analysis‑ready datasets.  
+4. **Analyze** – Explore trends in activity, steps, sleep, and sedentary behaviour; create summary statistics and visualisations.  
+5. **Share** – Build dashboards and slides to communicate insights clearly to the Bellabeat executive team.  
+6. **Act** – Propose high‑level marketing recommendations for the selected Bellabeat product based on the analysis.
+
