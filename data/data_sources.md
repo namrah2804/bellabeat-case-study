@@ -1,4 +1,4 @@
-## Step 2 – Prepare
+## Data Preparation
 
 ### 2.1 Data sources
 
