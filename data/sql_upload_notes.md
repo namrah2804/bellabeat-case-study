@@ -1,17 +1,22 @@
 # SQL Upload Notes (Prepare)
 
 ## SQL Environment
-- Platform: SQL Server
+- Platform: Microsoft SQL Server
+- Tool: SQL Server Management Studio (SSMS)
 
-## Dataset
-- Dataset name: fitbit_raw
+## Database
+- Database name: BellabeatFitbit
+- Schema: dbo
 
-## Tables Created
-- daily_activity_0312_0411
-- daily_activity_0412_0509
-- sleep_day_0412_0509 (where available)
-- weight_log_0312_0411 (optional)
-- weight_log_0412_0509 (optional)
+## Tables Created (raw imports)
+Two export folders were imported as separate tables to avoid mixing time windows before processing.
 
-## Upload Method
-CSV files were uploaded using schema auto-detection. No transformations or cleaning were applied during upload.
+- dbo.daily_activity_0312_0411
+- dbo.daily_activity_0412_0509
+- dbo.sleep_day_0312_0411 (only if available)
+- dbo.sleep_day_0412_0509 (only if available)
+- dbo.weight_log_0312_0411 (optional)
+- dbo.weight_log_0412_0509 (optional)
+
+## Import Method
+CSV files were imported using the SSMS Import Data wizard. No cleaning, joins, or transformations were applied at this stage.
