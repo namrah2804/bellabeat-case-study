@@ -27,6 +27,11 @@ Each CSV file represents a different aspect of usage (for example, daily activit
 **Daily tables**: Wide format (1 row = 1 user × 1 date)
 **Minute tables**: Long format (multiple rows per day)
 
+### Files Selected
+- dailyActivity_merged.csv: chosen as the primary dataset to analyse daily usage trends (steps, calories, activity minutes, sedentary time). Used across both exports.
+- sleepDay_merged.csv: included where available to explore sleep behaviour as a wellness dimension; sleep coverage is incomplete across exports.
+- weightLogInfo_merged.csv: optional due to sparse logging.
+
 ----
 
 ### 2.4 ROCCC evaluation and limitations
