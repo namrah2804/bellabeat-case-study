@@ -61,8 +61,10 @@ Daily activity data provides the strongest basis for analysing smart device usag
 
 ### Minute-Level Activity and Sleep Files
 These datasets were excluded because:
-- They are highly granular and not necessary for answering high-level marketing questions.
+- They are highly granular and not necessary, to keep the work aligned with the marketing-focused business questions and to prioritise interpretable daily trends for non-technical stakeholders
 - Daily-level summaries are more appropriate for stakeholder communication and strategic insights.
+
+ Minute-level analysis can be added later to explore time-of-day engagement and wear-time patterns.
 
 ### Redundant Daily Files (Steps-only, Calories-only)
 These were excluded because their information is already included in `dailyActivity_merged.csv`, making them unnecessary duplicates.
