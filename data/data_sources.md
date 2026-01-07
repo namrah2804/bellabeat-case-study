@@ -24,6 +24,8 @@ Downloaded Fitbit CSV files are stored in the `data/raw/` folder of this reposit
 
 Each CSV file represents a different aspect of usage (for example, daily activity, daily calories, daily steps, and sleep). Most of the daily‑level tables are stored in **wide** format, with one row per user per date and separate columns for different measures (such as total steps, total distance, sedentary minutes, and very active minutes). Some other tables, such as minute‑level data, are closer to **long** format, with multiple rows per user per day.
 
+**Daily tables**: Wide format (1 row = 1 user × 1 date)
+**Minute tables**: Long format (multiple rows per day)
 
 ----
 
